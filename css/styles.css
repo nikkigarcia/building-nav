@@ -41,9 +41,15 @@
     height: 75px;
     background-color: gray;
 }
+.main-nav:hover{
+    height: 90px;
+}
 .logo{
     height: 56px;
     padding: 10px;
+}
+.logo:hover{
+    height: 75px;
 }
 .nav-list{
     float: right;
@@ -54,6 +60,11 @@ li{
     float: left;
     /* 1 top and bottom 2nd left/right */
     padding: 14px 16px;
+
+}
+li:hover{
+    font-size: 30px;
+    padding: 5px 16px;
 }
 .center{
     text-align: center;
