@@ -69,3 +69,21 @@ li:hover{
 .center{
     text-align: center;
 }
+/*  end nav styles */
+.content{
+    height: 85vh;
+}
+/* footer styles */
+.footer{
+    background-color: gray;
+}
+.social-media{
+    height: 50px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
