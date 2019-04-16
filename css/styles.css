@@ -91,3 +91,7 @@ a{
     height: 40px;
     text-align: center;
 }
+.map{
+    height: 800px;
+    width: 800px;
+}
