@@ -71,7 +71,7 @@ li:hover{
 }
 /*  end nav styles */
 .content{
-    height: 85vh;   
+    height: 90vh;   
 }
 /* footer styles */
 .footer{
@@ -129,6 +129,23 @@ a{
 .button-small{
     width: 150px;
 }
+
+/* span  family tree stucture*/
+span{
+    background-color: yellowgreen;
+}
+.family > span{
+    background-color: orange;
+
+}
+ul.social-media > li{
+    padding: 20px 24px;
+}
+.second-span ~ .first-span{
+    color: red;
+}
+/* end family tree structure */
+
 /* media queryies always at the bottom */
 @media (max-width: 768px){
     .button{
