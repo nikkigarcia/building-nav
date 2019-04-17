@@ -76,6 +76,7 @@ li:hover{
 /* footer styles */
 .footer{
     background-color: gray;
+    margin-bottom: 0;
 }
 .social-media{
     height: 50px;
@@ -127,4 +128,16 @@ a{
 }
 .button-small{
     width: 150px;
+}
+/* media queryies always at the bottom */
+@media (max-width: 768px){
+    .button{
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .button{
+        font-size: 22px;
+    }
 }
