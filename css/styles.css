@@ -102,3 +102,29 @@ a{
     display: block;
     padding-left: 30%;
 }
+
+.margin-0-auto{
+    margin: 0 auto;
+}
+.button{
+    border-radius:10px;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.button-success{
+    background-color: green;
+    border: 1px solid #ccc;
+}
+.button-default{
+    background-color: #ccc;
+    color: black;
+}
+.button-danger{
+    width: 250px;
+    background-color: red;
+}
+.button-small{
+    width: 150px;
+}
