@@ -71,7 +71,7 @@ li:hover{
 }
 /*  end nav styles */
 .content{
-    height: 85vh;
+    height: 85vh;   
 }
 /* footer styles */
 .footer{
@@ -90,4 +90,15 @@ a{
 .footer-img{
     height: 40px;
     text-align: center;
+}
+.map{
+    padding-left: 30%;
+}
+.audio{
+    display: block;
+    padding-left: 30%;
+}
+.video{
+    display: block;
+    padding-left: 30%;
 }
